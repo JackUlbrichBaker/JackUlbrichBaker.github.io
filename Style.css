@@ -82,14 +82,14 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #101010;
+  background-color: #2F4550;
 }
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
   background-color: #f1f1f1;
-  padding: 10%;
+  padding: 15%;
   padding-top: 5%;
 }
 
@@ -110,4 +110,14 @@ a:hover {
 /* selected link */
 a:active {
   color: darkgrey;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
 }
