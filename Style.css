@@ -121,3 +121,15 @@ a:active {
   color: white;
   text-align: center;
 }
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  column-gap: 5%;
+  row-gap: 20%;
+  grid-template-areas: ' . . . ' '. . .';
+}
+
+section {
+  text-align: center;
+}
