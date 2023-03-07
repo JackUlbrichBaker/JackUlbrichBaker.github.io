@@ -3,7 +3,7 @@
   }
   body {
     display: flex;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: row;
     margin: 0;
     font-family: 'Ubuntu Mono', monospace;
@@ -27,8 +27,13 @@
     min-height: 60vh;
   }
   header, footer {
-    background: yellowgreen;
     height: 20vh;
+    padding-top: 10%;
+    min-height: 20vh;
+  }
+  footer {
+  margin-top: 10px;
+  margin-bottom: 0px;
   }
 header  {
   margin-top: 0px;
@@ -40,7 +45,7 @@ header  {
   -webkit-text-fill-color: transparent;
 }
   header, footer, article, nav {
-    padding: 1em;
+    padding: 10px;
   }
 
 ul {
@@ -91,6 +96,7 @@ article {
   background-color: #f1f1f1;
   padding: 15%;
   padding-top: 5%;
+  padding-bottom: 20%;
 }
 
 a:link {
@@ -133,6 +139,7 @@ a:active {
 
 section {
   text-align: center;
+  padding: 5%;
 }
 
 
